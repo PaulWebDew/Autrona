@@ -38,15 +38,17 @@
             <div class="topElements ml-100">
                <div class="iconWrap d-flex align-center ">
                   <img src="./images/clock-24.png" alt="mail">
-                  <p>mon-fri: 8.00 - 17.00</p>
+                  <p><span class="lng-days">mon-fri</span>: 8.00 - 17.00</p>
                </div>
             </div>
             <div class="topElements">
                <div class="pos-relative iconWrap d-flex align-center ">
-                  <img class="center" src="./images/en.png" alt="mail">
-                  <p>En</p>
-                  <button class="selectLang">
-                     <img src="./images/btnLang.png" alt="button"></button>
+                  <img class="center lng-img" src="./images/en.png" alt="mail">
+                  <select class="changeLang" name="language" id="lng">
+                     <option value="en">En</option>
+                     <option value="lt" selected>Lt</option>
+                     <option value="ru">Ru</option>
+                  </select>
                </div>
             </div>
          </div>
@@ -58,10 +60,10 @@
             </div>
             <div class="navLinks pos-relative">
                <ul class="d-flex justify-between ml-10 align-center">
-                  <li><a href="#">services</a></li>
-                  <li><a href="#">about</a></li>
-                  <li><a href="#">enployement</a></li>
-                  <li><a href="#">contacts</a></li>
+                  <li><a href="#" class="lng-services">services</a></li>
+                  <li><a href="#" class="lng-about">about</a></li>
+                  <li><a href="#" class="lng-employement">employement</a></li>
+                  <li><a href="#" class="lng-contacts">contacts</a></li>
                </ul>
                <div class="line center"></div>
             </div>
@@ -69,11 +71,9 @@
       </nav>
       <section class="slogan">
          <div class="span">
-            <span>YOUR</span>
-            <span>PARTNER</span>
-            <span>FOR</span>
-            <span>SIMPLISITY</span>
-            <span>TRANSPORTATION</span>
+            <span class="lng-sp1">YOUR PARTNER FOR</span>
+            <span class="lng-sp2">SIMPLISITY</span>
+            <span class="lng-sp3">TRANSPORTATION</span>
          </div>
       </section>
    </header>
@@ -204,6 +204,7 @@
       </div>
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="lang.js"></script>
    <script src="script.js"></script>
 </body>
 
