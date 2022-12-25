@@ -1,0 +1,27 @@
+.textAbout {
+   margin-top: 5vw;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.8rem;
+   line-height: 1vw;
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.textAbout p {
+   margin-top: 2vw;
+   font-size: 1.4rem;
+   line-height: 1.2;
+}
+
+.textAbout h2 {
+   font-size: 2rem;
+}
+
+.aboutLine {
+   border-bottom: 2px solid white;
+   margin-top: 1vw;
+   width: 10vw;
+   box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

@@ -47,3 +47,18 @@ function changeLanguage() {
    }
 }
 changeLanguage();
+// -----------------adaptive menu-------------------
+const menuBtn = document.querySelector('.menuButton');
+
+const lineTop = document.querySelector('.lineTop')
+const lineMiddle = document.querySelector('.lineMiddle')
+const lineButtom = document.querySelector('.lineButtom')
+const nav = document.querySelector('.navLinks ')
+
+menuBtn.addEventListener("click", animationMenu);
+function animationMenu() {
+   lineTop.classList.toggle("topActive");
+   lineMiddle.classList.toggle('middleActive');
+   lineButtom.classList.toggle('buttomActive');
+   nav.classList.toggle('navActive');
+}

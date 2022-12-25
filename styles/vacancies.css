@@ -1,0 +1,105 @@
+body {
+   height: 100vh;
+
+   background-color: rgba(53, 133, 102, 0.76);
+}
+
+main {
+   background-color: rgba(16, 79, 52, 0.3);
+   height: 0vh;
+}
+
+
+.wrInvitat {
+   margin-top: 5vw;
+}
+
+.wrInvitat .text {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2rem;
+   line-height: 5vw;
+   color: rgb(255, 255, 255);
+   width: 100%;
+   text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+
+
+.wrInvitat h2 {
+   font-size: 2.5rem;
+}
+
+.wrInvitat p {
+   margin-top: 4vw;
+   font-size: 1.5rem;
+   line-height: normal;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   color: rgb(255, 255, 255);
+   width: 35vw;
+   text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.collUs,
+.writeUs {
+   border: 1px double white;
+   border-radius: 8px;
+   padding: 0.2vw 1.5vw;
+   margin-top: 11vw;
+   margin-right: 10vw;
+   font-size: 1.5rem;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   background-color: rgba(53, 133, 102, 0.76);
+   transition: 0.3s ease;
+   color: rgb(255, 255, 255)
+}
+
+.collUs:hover,
+.writeUs:hover {
+   box-shadow: 2px 2px 5px rgb(7, 36, 23);
+   cursor: pointer;
+}
+
+.collUs a,
+.writeUs a {
+   color: rgb(255, 255, 255);
+}
+
+.advantages {
+   margin: 5vw 0;
+}
+
+details {
+   width: 100%;
+   font-size: 1.5rem;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   color: aliceblue;
+   border: 2px solid white;
+   border-radius: 10px;
+   padding: 5px 10px;
+   margin: 1vw 0vw;
+   text-shadow: 2px 2px 5px rgb(7, 36, 23);
+   background-color: rgba(255, 255, 255, 0.4);
+   transition: 0.3s ease;
+}
+
+details:hover {
+   cursor: pointer;
+   box-shadow: 2px 2px 5px rgba(53, 133, 102, 0.9);
+
+   background-color: rgba(255, 255, 255, 0.55);
+}
+
+details>ul {
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   margin: 1vw 2vw;
+}
