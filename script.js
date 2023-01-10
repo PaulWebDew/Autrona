@@ -62,3 +62,16 @@ function animationMenu() {
    lineButtom.classList.toggle('buttomActive');
    nav.classList.toggle('navActive');
 }
+
+
+const ourPartners = document.querySelector('#partnersBtn');
+const ourTrucs = document.querySelector('#tracsBtn');
+const partners = document.querySelector('#partners');
+const trucs = document.querySelector('#trucs');
+
+ourPartners.addEventListener('click', () => {
+   partners.classList.toggle('hidden')
+})
+ourTrucs.addEventListener('click', () => {
+   trucs.classList.toggle('hidden')
+})

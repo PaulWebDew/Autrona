@@ -1,0 +1,23 @@
+.contacts {
+   position: relative;
+   top: 5vw;
+   background: rgba(0, 0, 0, 0.0);
+
+}
+
+.teamCart {
+   background: #000;
+   background-color: rgb(1, 49, 32, 0.9);
+
+}
+
+.teamCart a {
+   margin-top: 10px;
+   font-size: 0.8rem;
+   padding: 3px 3px;
+
+}
+
+.teamCart a:hover {
+   color: rgb(245, 234, 138);
+}

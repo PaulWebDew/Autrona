@@ -20,7 +20,7 @@
    <header>
       <div class="topLine align-center d-flex">
          <div class="content center d-flex justify-between align-center">
-            <div class="topElements">
+            <div class="topElements" id="btn-1">
                <button class="topNav" data-tooltip="Call now">
                   <div class="iconWrap d-flex align-center">
                      <img src="./images/phone.png" alt="phone">
@@ -28,7 +28,7 @@
                   </div>
                </button>
             </div>
-            <div class="topElements ml-50">
+            <div class="topElements ml-50" id="btn-2">
                <button class="topNav" data-tooltip="write to e-mail">
                   <div class="iconWrap d-flex align-center">
                      <img src="./images/email-64.png" alt="mail">
@@ -36,13 +36,13 @@
                   </div>
                </button>
             </div>
-            <div class="topElements ml-100">
+            <div class="topElements ml-100" id="workTime">
                <div class="iconWrap d-flex align-center ">
                   <img src="./images/clock-24.png" alt="mail">
                   <p><span class="lng-days">mon-fri</span>: 8.00 - 17.00</p>
                </div>
             </div>
-            <div class="topElements">
+            <div class="topElements" id="lng">
                <div class="pos-relative iconWrap d-flex align-center ">
                   <img class="center lng-img" src="./images/en.png" alt="mail">
                   <select class="changeLang" name="language" id="lng">
@@ -55,18 +55,27 @@
          </div>
       </div>
       <nav>
-         <div class="nav content center d-flex justify-between">
-            <div class="logo">
-               <img src="./images/logoGreen.png" alt="">
+         <div class="bgNav">
+            <div class="nav content center d-flex justify-between">
+               <div class="logo">
+                  <img src="./images/logoGreen.png" alt="">
+               </div>
+
+               <div class="navLinks pos-relative">
+                  <ul class="d-flex justify-between ml-10 align-center">
+                     <li><a href="index.html" class="lng-main">main</a></li>
+                     <li><a href="about.html" class="lng-about">about</a></li>
+                     <li><a href="vacancies.html" class="lng-vacancies">vacancies</a></li>
+                     <li><a href="contacts.html" class="lng-contacts">contacts</a></li>
+                  </ul>
+                  <div class="line center"></div>
+               </div>
+
             </div>
-            <div class="navLinks pos-relative">
-               <ul class="d-flex justify-between ml-10 align-center">
-                  <li><a href="index.html" class="lng-main">main</a></li>
-                  <li><a href="about.html" class="lng-about">about</a></li>
-                  <li><a href="#" class="lng-vacancies">vacancies</a></li>
-                  <li><a href="contacts.html" class="lng-contacts">contacts</a></li>
-               </ul>
-               <div class="line center"></div>
+            <div class="menuButton">
+               <div class="lineTop"></div>
+               <div class="lineMiddle"></div>
+               <div class="lineButtom"></div>
             </div>
          </div>
       </nav>

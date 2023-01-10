@@ -1,5 +1,5 @@
 body {
-   height: 100vh;
+   height: 110vh;
 
    background-color: rgba(53, 133, 102, 0.76);
 }
@@ -80,12 +80,12 @@ details {
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 600;
-   color: aliceblue;
+   color: rgb(7, 36, 23);
    border: 2px solid white;
    border-radius: 10px;
    padding: 5px 10px;
    margin: 1vw 0vw;
-   text-shadow: 2px 2px 5px rgb(7, 36, 23);
+   text-shadow: 1px 1px 2px rgb(7, 36, 23);
    background-color: rgba(255, 255, 255, 0.4);
    transition: 0.3s ease;
 }
